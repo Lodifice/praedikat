@@ -1,0 +1,10 @@
+---
+layout: default
+title: Alle Prädikate auf einen Blick
+---
+
+## Willkommen auf Prädikat
+
+Hier eine Liste mit Links zu den Prädikaten
+
+- [wertvoll]({{ site.baseurl }}/wertvoll)
