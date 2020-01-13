@@ -1,7 +1,4 @@
----
-layout: default
-title: Alle Prädikate auf einen Blick
----
+# Alle Prädikate auf einen Blick
 
 ## Willkommen auf Prädikat
 
