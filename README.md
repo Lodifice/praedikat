@@ -4,4 +4,4 @@
 
 Hier eine Liste mit Links zu den Prädikaten
 
-- [wertvoll]({{ site.baseurl }}/wertvoll)
+- [wertvoll](/wertvoll)
