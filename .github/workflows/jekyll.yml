@@ -9,6 +9,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Lint all Markdown files
+      uses: nosborn/github-action-markdown-cli@v1.1.1
+      with:
+        files: .
+        config_file: ".markdownlint.yaml"
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
