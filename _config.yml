@@ -23,4 +23,4 @@ compress_html:
   profile: false
   startings: []
 
-permalink: pretty
+permalink: /:title
