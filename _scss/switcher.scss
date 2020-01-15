@@ -3,11 +3,6 @@
   align-items: center;
   justify-content: flex-end;
 
-  em {
-    margin-right: 10px;
-    font-size: 1rem;
-
-  }
 }
 
 .theme-switch {
@@ -45,7 +40,7 @@
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #6b6;
 
 }
 
