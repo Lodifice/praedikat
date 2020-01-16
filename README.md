@@ -4,4 +4,11 @@
 
 Hier eine Liste mit Links zu den Prädikaten
 
-- [wertvoll]({{ site.baseurl }}/wertvoll)
+{% for page in site.pages %}
+{% assign praedikat = page.path | replace:'.md','' %}
+{% unless preadikat == README %}
+
+- [{{ preadikat }}]({{ site.baseurl }}/{{ preadikat }})
+
+{% endunless %}
+{% endfor %}
