@@ -2,12 +2,16 @@
   --font-color: #566b78;
   --bg-color: #fff;
   --heading-color: #333;
+  --link-color: #00e;
+  --link-color-visited: #551A8B;
 }
 
 [data-theme="dark"] {
   --font-color: #c1cdd4;
   --bg-color: #333;
   --heading-color: #fff;
+  --link-color: #80a0ff;
+  --link-color-visited: #d787ff;
 }
 
 html, body {
@@ -21,6 +25,14 @@ body {
   background-color: var(--bg-color);
 	line-height: 1.5;
 	padding: 4em 1em;
+}
+
+a {
+  color: var(--link-color);
+
+  &:visited {
+    color: var(--link-color-visited);
+  }
 }
 
 h1, h2, strong {
