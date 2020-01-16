@@ -6,7 +6,7 @@ Hier eine Liste mit Links zu den Prädikaten
 
 {% for page in site.pages %}
 {% assign praedikat = page.path | replace:'.md','' %}
-{% unless praedikat == README %}
+{% unless praedikat == "README" %}
 
 - [{{ praedikat }}]({{ site.baseurl }}/{{ praedikat }})
 
