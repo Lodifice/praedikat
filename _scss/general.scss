@@ -1,17 +1,17 @@
 :root {
-  --font-color: #566b78;
-  --bg-color: #fff;
-  --heading-color: #333;
-  --link-color: #00e;
-  --link-color-visited: #551A8B;
-}
-
-[data-theme="dark"] {
   --font-color: #e3e0d7;
   --bg-color: #242424;
   --heading-color: #fff;
   --link-color: #80a0ff;
   --link-color-visited: #d787ff;
+}
+
+[data-theme="light"] {
+  --font-color: #566b78;
+  --bg-color: #fff;
+  --heading-color: #333;
+  --link-color: #00e;
+  --link-color-visited: #551A8B;
 }
 
 html, body {
