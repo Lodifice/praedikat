@@ -1,0 +1,13 @@
+#gabel {
+  display: inline-block;
+  background: var(--gabel-color);
+  padding: 0.2em .5em .4em;
+  color: var(--bg-color);
+  border-radius: .3em;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+
+  }
+}
