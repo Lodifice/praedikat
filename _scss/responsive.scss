@@ -1,0 +1,16 @@
+.hide-for-small {
+  display: none !important;
+
+}
+
+@media screen and (min-width: 45em) {
+  .hide-for-small {
+    display: none !important;
+
+  }
+
+}
+
+@media screen and (min-width: 60em) {
+
+}
