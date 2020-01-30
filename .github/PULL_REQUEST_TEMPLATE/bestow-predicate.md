@@ -6,4 +6,4 @@ Please declare to have obeyeth the following rules.
 * [ ] The description of my link and the content behind it match the language of the predicate's name
 * [ ] The content behind my link matches the predicate's intention and is not too commonly known
 
- Upon filfillment we will not hesitate to merge thy request.
+ Upon filfillment we will not hesitate to take into consideration a merge of thy request.
