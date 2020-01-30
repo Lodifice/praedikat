@@ -1,11 +1,11 @@
-.hide-for-small {
+.hide-for-small-only {
   display: none !important;
 
 }
 
 @media screen and (min-width: 45em) {
-  .hide-for-small {
-    display: none !important;
+  .hide-for-small-only {
+    display: initial !important;
 
   }
 
