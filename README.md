@@ -14,4 +14,4 @@ Witzige, originelle Inhalte, die nicht weitläufig verbreitet sind.
 
 ## Mitmachen
 
-[Gabeln](https://github.com/Lodifice/praedikat-wertvoll/fork) und Zugbehren erstellen.
+[Gabeln](https://github.com/Lodifice/praedikat-wertvoll/fork) und [Zugbehren erstellen](https://github.com/lodifice/praedikat/compare).
