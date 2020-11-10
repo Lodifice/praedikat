@@ -4,3 +4,6 @@
 - [Titanen des Erdreichs](https://www.youtube.com/watch?v=X4wmz-QPfiI)
 - [Gesellschaft zur Stärkung der Verben](https://neutsch.org/Starke_Verben/A)
 - [Nur weißt du nichts davon (Gothic Hip Hop)](https://www.youtube.com/watch?v=_kziY16yCUY)
+- [Dragostea Din Tei, but every other beat is missing](https://www.youtube.com/watch?v=biP-pzqRtsk)
+- [The Missile Knows Where It Is...](https://www.youtube.com/watch?v=bZe5J8SVCYQ)
+- [Hitler and Stalin having a great time](https://www.youtube.com/watch?v=25GjijODWoI)
