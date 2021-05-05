@@ -6,6 +6,8 @@
 
 $baseurl: "{{ site.baseurl }}";
 
+@import 'light';
+@import 'dark';
 @import 'general';
 @import 'switcher';
 @import 'responsive';
