@@ -10,6 +10,11 @@ sass:
   sass_dir: _scss
   style: :compressed
 
+plugins:
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
 compress_html:
   clippings: []
   comments: []
