@@ -1,7 +1,7 @@
 ---
 
 title: Prädikat
-baseurl: "/"
+baseurl: ""
 url: "https://prädik.at"
 
 markdown: kramdown
@@ -9,9 +9,6 @@ markdown: kramdown
 sass:
   sass_dir: _scss
   style: :compressed
-
-plugins:
-  - jekyll
 
 compress_html:
   clippings: []
@@ -24,3 +21,4 @@ compress_html:
   startings: []
 
 permalink: /:title
+# permalink: pretty
