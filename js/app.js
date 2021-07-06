@@ -5,9 +5,13 @@ var currentTheme = localStorage.getItem('theme');
 if (currentTheme) {
 	document.documentElement.setAttribute('data-theme', currentTheme);
 
-	if (currentTheme === 'light' || matchMediaPrefLight.matches) {
+	if (currentTheme === 'light') {
 		toggleSwitch.checked = true;
 	}
+}
+
+if (!currentTheme && matchMediaPrefLight.matches) {
+  toggleSwitch.checked = true;
 }
 
 function switchTheme(e) {
