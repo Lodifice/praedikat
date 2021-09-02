@@ -33,9 +33,9 @@ Zusätzlich wird eine lokale Version der gebündelten Edelsteine abgelegt und ag
 
 ```sh
 export JEKYLL_VERSION=3
-alias jekyll='docker run -it --rm -v "$PWD":/srv/jekyll -v "$PWD/vendor/bundle":/usr/local/bundle -p 127.0.0.1:4000:4000 jekyll/jekyll:"$JEKYLL_VERSION" jekyll'
-alias jekyll-bash='docker run -it --rm -v "$PWD":/srv/jekyll -v "$PWD/vendor/bundle":/usr/local/bundle -p 127.0.0.1:4000:4000 jekyll/jekyll:"$JEKYLL_VERSION" bash'
-alias jekyll-bundle='docker run -it --rm -v "$PWD":/srv/jekyll -v "$PWD/vendor/bundle":/usr/local/bundle jekyll/jekyll:"$JEKYLL_VERSION" bundle'
+alias jekyll='docker run -it --rm -v "$(pwd)":/srv/jekyll -v "$(pwd)/vendor/bundle":/usr/local/bundle -p 127.0.0.1:4000:4000 jekyll/jekyll:"$JEKYLL_VERSION" jekyll'
+alias jekyll-bash='docker run -it --rm -v "$(pwd)":/srv/jekyll -v "$(pwd)/vendor/bundle":/usr/local/bundle -p 127.0.0.1:4000:4000 jekyll/jekyll:"$JEKYLL_VERSION" bash'
+alias jekyll-bundle='docker run -it --rm -v "$(pwd)":/srv/jekyll -v "$(pwd)/vendor/bundle":/usr/local/bundle jekyll/jekyll:"$JEKYLL_VERSION" bundle'
 ```
 
 Damit ist es möglich nahtlos `jekyll` mit `serve`, `build`, `clean`, etc. zu benutzen.
