@@ -25,7 +25,7 @@ Um die Schablonen weiter zu bringen, ist eine lokale Installation des Programms 
 
 Um sich nicht eine komplette Umgebung mit Rubin, Edelsteinen und Bündel aufsetzen zu müssen, kann man sich Hilfe bei `Docker` holen.
 Das Abbild `jekyll/jekyll:VERSIONSNUMMER` funktioniert wunderbar, um eine lokal begrenzte Umgebung zu besitzen.
-Für Github Pages Umgebungen ist `jekyll` in der Version 3.9 gesetzt, weswegen man `jekyll/jekyll:3` benutzen sollte.
+Für Deppendrehkreuz-Seiten-Umgebungen ist `jekyll` in der Version 3.9 gesetzt, weswegen man `jekyll/jekyll:3` benutzen sollte.
 
 Um die Schreibarbeit zu vereinfachen, sind folgende handliche Befehle als Aliase nützlich.
 Ein Programm wie zum Beispiel [`direnv`](https://direnv.net/) kann hier bei multiplen Versionen helfen.
